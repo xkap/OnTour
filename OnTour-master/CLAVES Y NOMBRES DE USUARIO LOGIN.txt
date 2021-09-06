@@ -1,0 +1,10 @@
+EJECUTIVO:
+user: 12345678-k
+pass: hola
+
+
+APODERADO
+user: 1904k
+pass: chao
+
+NOTA: Estos usuarios no cumplen con las restricciones establecidas como el rut o contraseña, son solo de muestra.

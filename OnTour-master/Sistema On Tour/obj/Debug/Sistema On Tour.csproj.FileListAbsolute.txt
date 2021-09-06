@@ -1,0 +1,42 @@
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\bin\Debug\Sistema On Tour.exe.config
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\bin\Debug\Sistema On Tour.exe
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\bin\Debug\Sistema On Tour.pdb
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Login.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Properties.Resources.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaDepositar.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaDepositoRealizado.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaDepositos.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaPrincipalApoderado.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaPrincipalEjecutivo.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema On Tour.csproj.GenerateResource.cache
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema On Tour.csproj.CoreCompileInputs.cache
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema On Tour.exe
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema On Tour.pdb
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaContratos.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaInformacionesEjecutivo.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaInformar.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaPaquetes.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaPublicar.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaListadoDepositos.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaRegistrarApoderado.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaInformacionesApoderado.resources
+C:\Users\rober\OneDrive\Documentos\Archivos C# Duoc\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema On Tour.csprojAssemblyReference.cache
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema On Tour.csprojAssemblyReference.cache
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Login.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Properties.Resources.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaContratos.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaDepositar.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaDepositoRealizado.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaDepositos.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaInformacionesEjecutivo.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaInformar.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaListadoDepositos.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaPaquetes.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaPrincipalApoderado.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaPrincipalEjecutivo.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaPublicar.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaRegistrarApoderado.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema_On_Tour.Vistas.VentanaInformacionesApoderado.resources
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema On Tour.csproj.GenerateResource.cache
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema On Tour.exe
+C:\Users\rober\Downloads\Sistema On Tour\Sistema On Tour\obj\Debug\Sistema On Tour.pdb

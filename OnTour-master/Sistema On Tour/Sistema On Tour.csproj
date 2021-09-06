@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA021681-50EC-44FB-9F31-30A9E46C50FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sistema_On_Tour</RootNamespace>
+    <AssemblyName>Sistema On Tour</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controlador\Conexion.cs" />
+    <Compile Include="Modelo\Apoderado.cs" />
+    <Compile Include="Vistas\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\VentanaContratos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaContratos.Designer.cs">
+      <DependentUpon>VentanaContratos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaDepositar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaDepositar.Designer.cs">
+      <DependentUpon>VentanaDepositar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaDepositoRealizado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaDepositoRealizado.Designer.cs">
+      <DependentUpon>VentanaDepositoRealizado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaDepositos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaDepositos.Designer.cs">
+      <DependentUpon>VentanaDepositos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaInformacionesEjecutivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaInformacionesEjecutivo.Designer.cs">
+      <DependentUpon>VentanaInformacionesEjecutivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaInformar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaInformar.Designer.cs">
+      <DependentUpon>VentanaInformar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaListadoDepositos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaListadoDepositos.Designer.cs">
+      <DependentUpon>VentanaListadoDepositos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaPaquetes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaPaquetes.Designer.cs">
+      <DependentUpon>VentanaPaquetes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaPrincipalApoderado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaPrincipalApoderado.Designer.cs">
+      <DependentUpon>VentanaPrincipalApoderado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaPrincipalEjecutivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaPrincipalEjecutivo.Designer.cs">
+      <DependentUpon>VentanaPrincipalEjecutivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaPublicar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaPublicar.Designer.cs">
+      <DependentUpon>VentanaPublicar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaRegistrarApoderado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaRegistrarApoderado.Designer.cs">
+      <DependentUpon>VentanaRegistrarApoderado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VentanaInformacionesApoderado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VentanaInformacionesApoderado.Designer.cs">
+      <DependentUpon>VentanaInformacionesApoderado.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\VentanaContratos.resx">
+      <DependentUpon>VentanaContratos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaDepositar.resx">
+      <DependentUpon>VentanaDepositar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaDepositoRealizado.resx">
+      <DependentUpon>VentanaDepositoRealizado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaDepositos.resx">
+      <DependentUpon>VentanaDepositos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaInformacionesEjecutivo.resx">
+      <DependentUpon>VentanaInformacionesEjecutivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaInformar.resx">
+      <DependentUpon>VentanaInformar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaListadoDepositos.resx">
+      <DependentUpon>VentanaListadoDepositos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaPaquetes.resx">
+      <DependentUpon>VentanaPaquetes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaPrincipalApoderado.resx">
+      <DependentUpon>VentanaPrincipalApoderado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaPrincipalEjecutivo.resx">
+      <DependentUpon>VentanaPrincipalEjecutivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaPublicar.resx">
+      <DependentUpon>VentanaPublicar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaRegistrarApoderado.resx">
+      <DependentUpon>VentanaRegistrarApoderado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VentanaInformacionesApoderado.resx">
+      <DependentUpon>VentanaInformacionesApoderado.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
